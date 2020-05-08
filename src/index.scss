@@ -20,7 +20,7 @@
 
 @font-face {
   font-family: 'Tiempos';
-  src: url("./resources/fonts/Times/timr45w.ttf") format("truetype")
+  src: url("./resources/fonts/Times/TiemposText-Bold.ttf") format("truetype")
 }
 
 
@@ -85,7 +85,6 @@ footer {
     margin: 15px 0;
   }
   .column-container {
-    background: rosybrown;
     display: flex;
     height: 150px;
     .first-column {
