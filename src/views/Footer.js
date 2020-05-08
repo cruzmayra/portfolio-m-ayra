@@ -9,7 +9,7 @@ export const Footer = () => {
                 <div className="column-container">
                     <div className="first-column">
                         <div>
-                            <p>Gracias por llegar al final de esta página. Si quieres saber más de mí o sobre lo qyue estoy trabajando, consulta los enlaces de la derecha.</p>
+                            <p>Gracias por llegar al final de esta página. Si quieres saber más de mí o sobre qué estoy trabajando, consulta los enlaces de la derecha.</p>
                         </div>
                         <div>
                             <p>

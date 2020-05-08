@@ -72,11 +72,43 @@ header {
   font-weight: 700;
 }
 
+.main-title {
+  font-family: 'Tiempos';
+  font-size: 72px;
+  line-height: 76px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
 .title {
   font-family: 'Tiempos';
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
+}
+
+.hero {
+  align-items: center;
+  //background-color: rosybrown;
+  display: flex;
+  flex-direction: row;
+  height: 85vh;
+  justify-content: space-between;
+  .bio-container {
+    .greeting {
+      color: silver;
+      font-size: 28px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    .bio {
+      color: silver;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 36px;
+      margin: 0;
+    }
+  }
 }
 
 footer {
