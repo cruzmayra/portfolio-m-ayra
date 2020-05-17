@@ -1,4 +1,4 @@
-{
+export const myWork = {
     "dlr-site": {
         "title": "dlR site",
         "period": "2019",
@@ -8,8 +8,8 @@
         "link": "https://delarivagroup.com/",
         "source-code": false,
         "code-link": "",
-        "preview-image": "",
-        "hero-image": ""
+        "preview-image": "dlR-site-card",
+        "hero-image": "dlR-site-hero"
     },
     "purrrgram": {
         "title": "Purrrgram",
@@ -20,8 +20,8 @@
         "link": "https://samaya-prueba-frontend-b01vh8zor.now.sh/",
         "source-code": true,
         "code-link": "https://github.com/cruzmayra/purrgram-project",
-        "preview-image": "",
-        "hero-image": ""
+        "preview-image": "purrrgram-card",
+        "hero-image": "purrrgram-hero"
     },
     "lab-car": {
         "title": "LabCar",
@@ -32,8 +32,8 @@
         "link": "https://cruzmayra.github.io/lab-car-boilerplate/",
         "source-code": true,
         "code-link": "https://github.com/CruzMayra/lab-car-boilerplate",
-        "preview-image": "lc-button.jpg",
-        "hero-image": "lc-desktop.jpg"
+        "preview-image": "labCard-card",
+        "hero-image": "labCard-hero"
     },
     "pokedex": {
         "title": "Pokédex",
@@ -45,7 +45,7 @@
         "link": "https://cruzmayra.github.io/pokedex/",
         "source-code": true,
         "code-link": "https://github.com/CruzMayra/pokedex",
-        "preview-image": "pokedex-button.png",
-        "hero-image": "pokedex-desktop-01.jpg"
+        "preview-image": "pokedex-card",
+        "hero-image": "pokedex-hero"
     }
 }

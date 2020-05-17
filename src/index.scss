@@ -72,6 +72,26 @@ header {
   }
 }
 
+.masonry {
+  background-color: tan;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 900px;
+  .item {
+    background-color: tomato;
+    margin: 20px;
+    //margin-right: 20px;
+    height: auto;
+    min-height: 300px;
+    width: calc((100% / 2) - 40px);
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 12px 0 silver;
+    }
+  }
+}
+
 .logo {
   font-family: 'Tiempos';
   font-size: 24px;

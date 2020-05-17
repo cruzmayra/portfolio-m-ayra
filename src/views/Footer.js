@@ -28,13 +28,13 @@ export const Footer = () => {
                         <div>
                             <p>Encuentrame también en:</p>
                             <div className='footer-links-container'>
-                                <a className='footer-link' href='https://www.linkedin.com/in/cruz-mayra/' target='_blank'>
+                                <a className='footer-link' href='https://www.linkedin.com/in/cruz-mayra/'>
                                     <FontAwesomeIcon className='link-icon' icon={['fab', 'linkedin-in']} />
                                 </a>
-                                <a className='footer-link' href='https://github.com/cruzmayra' target='_blank'>
+                                <a className='footer-link' href='https://github.com/cruzmayra'>
                                     <FontAwesomeIcon className='link-icon' icon={['fab', 'github']} />
                                 </a>
-                                {/* <a className='footer-link' href='https://codepen.io/m_ayra' target='_blank'>
+                                {/* <a className='footer-link' href='https://codepen.io/m_ayra'>
                                     <FontAwesomeIcon className='link-icon' icon={['fab', 'codepen']} />
                                 </a> */}
                             </div>
