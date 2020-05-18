@@ -73,19 +73,14 @@ header {
 }
 
 .masonry {
-  // background-color: tan;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 1000px;
+  height: 950px;
 }
 
 .work-card {
-  //background-color: tomato;
-  margin: 25px;
-  //margin-right: 20px;
-  //height: auto;
-  //min-height: 300px;
+  margin: 20px;
   width: calc((100% / 2) - 40px);
   .work-header {
     border-radius: 16px;

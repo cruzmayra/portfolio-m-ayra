@@ -14,8 +14,8 @@ const initialState = {
             "previewImage": "dlRsiteCard.jpg",
             "heroImage": "dlRsiteHero.jpg"
         },
-        "purrrgram": {
-            "title": "Purrrgram",
+        "purrgram": {
+            "title": "Purrgram",
             "period": "noviembre 2019",
             "description": [
                 "Purrrgram es una pequeña aplicación web que te permite ver las más bellas imágenes de gatos en internet y guardar en tu perfil tus favoritas."
@@ -23,8 +23,8 @@ const initialState = {
             "link": "https://samaya-prueba-frontend-b01vh8zor.now.sh/",
             "source-code": true,
             "code-link": "https://github.com/cruzmayra/purrgram-project",
-            "previewImage": "purrrgramCard.jpg",
-            "heroImage": "purrrgramHero.jpg"
+            "previewImage": "purrgramCard.jpg",
+            "heroImage": "purrgramHero.jpg"
         },
         "lab-car": {
             "title": "LabCar",
