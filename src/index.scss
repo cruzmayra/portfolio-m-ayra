@@ -32,6 +32,11 @@ body {
   font-size: 1rem;
 }
 
+p {
+  line-height: 32px;
+  margin-top: 0;
+}
+
 a {
   color: #3aa8ff;
   text-decoration: none;
@@ -158,6 +163,34 @@ header {
   }
 }
 
+.hero-page {
+  height: 85vh;
+  img {
+    height: 85vh;
+    object-fit: cover;
+    width: 100%; 
+  }
+}
+
+.description-page {
+  display: flex;
+  flex-direction: row;
+  padding: 40px 0px;
+  .page-column-one {
+    background-color: rosybrown;
+    flex: 0 1 30%;
+    padding-right: 20px;
+    .title {
+      margin: 0
+    }
+  }
+  .page-column-two {
+    background-color: salmon;
+    flex: 0 1 70%;
+    padding-left: 20px;
+  }
+}
+
 footer {
   padding: 60px 0;
   h3 {
@@ -171,13 +204,13 @@ footer {
     height: 150px;
     .first-column {
       display: flex;
-      flex: 0 1 65%;
+      flex: 0 1 70%;
       flex-direction: column;
       justify-content: space-between;
     }
     .second-column {
       display: flex;
-      flex: 0 1 35%;
+      flex: 0 1 30%;
       padding-left: 45px;
       flex-direction: column;
       justify-content: space-between;

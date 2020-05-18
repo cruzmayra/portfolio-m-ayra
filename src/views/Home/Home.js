@@ -5,11 +5,9 @@ import { MasonryLayout } from './components/MasonryLayout'
 export const Home = () => {
 
     return (
-        <div>
-            <div className="container">
-                <Hero />
-                <MasonryLayout />
-            </div>
+        <div className="container">
+            <Hero />
+            <MasonryLayout />
         </div>
     )
 }

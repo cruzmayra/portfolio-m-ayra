@@ -6,6 +6,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import { PortfolioProvider } from './PortfolioContext'
 import { Footer } from './views/Footer';
 import { Home } from './views/Home/Home';
+import { Page } from './views/Page/Page'
 library.add(fab)
 
 function App() {
@@ -16,6 +17,9 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Home />
+          </Route>
+          <Route path="/:id">
+            <Page />
           </Route>
         </Switch>
         <Footer />
