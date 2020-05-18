@@ -36,7 +36,7 @@ const initialState = {
             "source-code": true,
             "code-link": "https://github.com/CruzMayra/lab-car-boilerplate",
             "previewImage": "labCarCard.jpg",
-            "heroImage": "labCardHero.jpg"
+            "heroImage": "labCarHero.jpg"
         },
         "pokedex": {
             "title": "Pokédex",
