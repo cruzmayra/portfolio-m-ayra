@@ -22,6 +22,14 @@ export const Page = () => {
                             return <p key={index}>{parrafo}</p>
                             })
                         }
+                        <ul>
+                            <li>
+                                <a href={project.link}>Demo</a>
+                            </li>
+                            <li>
+                                <a href={project.codeLink}>Código fuente</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </section>

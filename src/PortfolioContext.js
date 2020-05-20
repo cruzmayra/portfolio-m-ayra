@@ -10,7 +10,7 @@ const initialState = {
             ],
             "link": "https://delarivagroup.com/",
             "source-code": false,
-            "code-link": "",
+            "codeLink": "",
             "previewImage": "dlRsiteCard.jpg",
             "heroImage": "dlRsiteHero.jpg"
         },
@@ -18,11 +18,13 @@ const initialState = {
             "title": "Purrgram",
             "period": "noviembre 2019",
             "description": [
-                "Purrrgram es una pequeña aplicación web que te permite ver las más bellas imágenes de gatos en internet y guardar en tu perfil tus favoritas."
+                //"Rayados, pintos, negros o siameses, los gatos han maravillado al humano desde siempre. Miles de fotos de estos animalitos inundan el internet. Ahora puedes ver miles de estas imágenes en un solo lugar y guardar tus favoritas en tu perfil.",
+                "Purrgram es una aplicación web que te muestra un feed con las más bellas imágenes de gatos del internet acompañadas de una breve descripción que te facilitara saber si ese gato es ideal para ti. Si encuentras al indicado puedes conservar su foto marcandola como favorito y verla cuando quieras.",
+                "Creada con la libreria React Native Web, obtiene las imágenes de gatos a través de la API REST de Unsplash. Surge de un ejercicio para practicar React Hooks y dar primeros pasos para crear aplicaciones móviles. Para no gestionar, de momento, un backend el login y los datos del usuario, como nombre y favoritos, se maneja con localStorage pero permite a diferentes 'usuarios' manejar independientemente su información."
             ],
             "link": "https://samaya-prueba-frontend-b01vh8zor.now.sh/",
             "source-code": true,
-            "code-link": "https://github.com/cruzmayra/purrgram-project",
+            "codeLink": "https://github.com/cruzmayra/purrgram-project",
             "previewImage": "purrgramCard.jpg",
             "heroImage": "purrgramHero.jpg"
         },
@@ -34,7 +36,7 @@ const initialState = {
             ],
             "link": "https://cruzmayra.github.io/lab-car-boilerplate/",
             "source-code": true,
-            "code-link": "https://github.com/CruzMayra/lab-car-boilerplate",
+            "codeLink": "https://github.com/CruzMayra/lab-car-boilerplate",
             "previewImage": "labCarCard.jpg",
             "heroImage": "labCarHero.jpg"
         },
@@ -47,7 +49,7 @@ const initialState = {
             ],
             "link": "https://cruzmayra.github.io/pokedex/",
             "source-code": true,
-            "code-link": "https://github.com/CruzMayra/pokedex",
+            "codeLink": "https://github.com/CruzMayra/pokedex",
             "previewImage": "pokedexCard.jpg",
             "heroImage": "pokedexHero.jpg"
         }   
@@ -59,7 +61,7 @@ const initialState = {
             "description": [],
             "link": "",
             "source-code": true,
-            "code-link": "",
+            "codeLink": "",
             "previewImage": "",
             "heroImage": ""
         }   
