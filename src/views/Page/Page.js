@@ -1,35 +1,29 @@
 import React, { useContext } from 'react'
 import { useParams } from 'react-router-dom'
 import { PortfolioContext } from '../../PortfolioContext'
+import { meHero } from './../../resources/images/meHero.jpg'
 
 export const Page = () => {
     let { id } = useParams()
-    const { work } = useContext(PortfolioContext)
-    const project = work[id]
+    const { work, me } = useContext(PortfolioContext)
+    const infoPage = id === 'sobre-mi' ? me[id] : work[id]
+    console.log(infoPage)
     return (
         <React.Fragment>
             <section className="hero-page">
-                <img src={require(`./../../resources/images/${project.heroImage}`)} />
+                <img src={require(`./../../resources/images/${infoPage.heroImage}`)} alt={infoPage.title}/>
             </section>
             <section className="container">
                 <div className="description-page">
                     <div className="page-column-one">
-                        <h1 className="title">{project.title}</h1>
+                        <h1 className="title">{infoPage.title}</h1>
                     </div>
                     <div className="page-column-two">
                         {
-                            project.description.map((parrafo, index) => {
+                            infoPage.description.map((parrafo, index) => {
                             return <p key={index}>{parrafo}</p>
                             })
                         }
-                        <ul>
-                            <li>
-                                <a href={project.link}>Demo</a>
-                            </li>
-                            <li>
-                                <a href={project.codeLink}>Código fuente</a>
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </section>
