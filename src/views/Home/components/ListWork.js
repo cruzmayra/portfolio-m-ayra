@@ -1,38 +1,40 @@
-import React, { useContext } from 'react'
-import { Link } from 'react-router-dom'
-import { PortfolioContext } from './../../../PortfolioContext'
+import React from 'react'
 
-export const ListWork = () => {
-    const { work } = useContext(PortfolioContext)
+export const ListWork = ({items}) => {
 
     return (
         <React.Fragment>
             {
-                Object.values(work).map((item, index) => {
+                Object.values(items).map((item, index) => {
                     return <WorkCard
                         key={item.title}
-                        title={item.title}
-                        period={item.period}
-                        previewImage={item.previewImage}
-                        url={Object.keys(work)[index]} />
+                        info={item} />
                 })
             }
         </React.Fragment>
     )
 }
 
-const WorkCard = ({title, period, previewImage, url}) => {
-
+const WorkCard = ({info}) => {
+    const { previewImage, title, link, sourceCode, codeLink } = info
     return (
-        <Link to={`/${url}`} className="work-card">
+        <div className="work-card">
             <div className="work-header">
-                <img src={require(`./../../../resources/images/${previewImage}`)} alt={title} />
+                <a href={link} target="_blank">
+                    <img src={require(`./../../../resources/images/${previewImage}`)} alt={title} />
+                </a>
             </div>
             <div className="work-body">
-                <h3>{title}</h3>
-                <p>{period}</p>
+                <a href={codeLink}
+                    target="_blank"
+                    title={sourceCode ? "Código fuente" : ''}
+                    className={sourceCode ? '' : 'isDisabled'}>
+                    <h3>
+                        {title}
+                    </h3>
+                </a>
             </div>
-        </Link>
+        </div>
 
     )
 }
