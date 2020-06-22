@@ -59,9 +59,10 @@ const initialState = {
             "title": "Sobre mí",
             "period": "",
             "description": [
-                "Soy desarrolladora Frontend, radicada en CDMX.",
-                "Tengo dos años trabajando con herramientas como Javascript, ReactJS, React Hooks, React Native Web y WordPress. Recientemente di una charla en el Meetup de la Comunidad de WordPress en Puebla.",
-                "También tengo cuatro años de experiencia en labores administrativas, con Excel como mi principal herramienta.",
+                "Hola, soy Mayra. Soy desarrolladora frontend radicada en Ciudad de México, tengo dos años desarrollando páginas y aplicaciones web. También tengo cuatro años de experiencia en labores administrativas, con Excel como mi principal herramienta.",
+                "He trabajado con herramientas como Javascript, HTML, CSS. He construido SPA con Reactjs, React Hooks y React Router. También he creado sitios con WordPress, uno de ellos con un tema a la medida. Tengo conocimientos de PHP trabajando con Laravel.",
+                `Recientemente di una charla en el Meetup de la Comunidad de WordPress en Puebla.`,
+                "Soy egresada de la quinta generación de Laboratoria México, con especialización en Desarrollo Web Frontend. Antes de eso trabaje como Asistente y auxiliar administrativa.",
                 "Me gusta encontrar inspiración en el trabajo de los demás y aprender por mi cuenta."
             ],
             "link": "",
