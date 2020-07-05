@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export const Footer = () => {
@@ -16,7 +15,7 @@ export const Footer = () => {
                             <p>
                                 Alternativamente, mira esta elegante hoja de papel.
                                 <br></br>
-                                <Link to="#">Descarga mi CV</Link>
+                                <a href={'/Mayra-Cruz-Resume.pdf'}>Descarga mi CV</a>
                             </p>
                         </div>
                     </div>

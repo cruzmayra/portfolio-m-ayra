@@ -1,7 +1,6 @@
 import React, { useContext } from 'react'
 import { useParams } from 'react-router-dom'
 import { PortfolioContext } from '../../PortfolioContext'
-import { meHero } from './../../resources/images/meHero.jpg'
 
 export const Page = () => {
     let { id } = useParams()
