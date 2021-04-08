@@ -18,7 +18,6 @@ const initialState = {
             "title": "Purrgram",
             "period": "noviembre 2019",
             "description": [
-                //"Rayados, pintos, negros o siameses, los gatos han maravillado al humano desde siempre. Miles de fotos de estos animalitos inundan el internet. Ahora puedes ver miles de estas imágenes en un solo lugar y guardar tus favoritas en tu perfil.",
                 "Purrgram es una aplicación web que te muestra un feed con las más bellas imágenes de gatos del internet acompañadas de una breve descripción que te facilitara saber si ese gato es ideal para ti. Si encuentras al indicado puedes conservar su foto marcandola como favorito y verla cuando quieras.",
                 "Creada con la libreria React Native Web, obtiene las imágenes de gatos a través de la API REST de Unsplash. Surge de un ejercicio para practicar React Hooks y dar primeros pasos para crear aplicaciones móviles. Para no gestionar, de momento, un backend el login y los datos del usuario, como nombre y favoritos, se maneja con localStorage pero permite a diferentes 'usuarios' manejar independientemente su información."
             ],
@@ -52,7 +51,19 @@ const initialState = {
             "codeLink": "https://github.com/CruzMayra/pokedex",
             "previewImage": "pokedexCard.jpg",
             "heroImage": "pokedexHero.jpg"
-        }   
+        },
+        "asociacion-medica": {
+            "title": "Web AMCMABC",
+            "period": "2020",
+            "description": [
+                ""
+            ],
+            "link": "https://www.asociacionmedica-abc.com/",
+            "sourceCode": false,
+            "codeLink": "",
+            "previewImage": "abcCard.jpg",
+            "heroImage": "abcHero.jpg"
+        },
     },
     me: {
         "sobre-mi": {
