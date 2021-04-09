@@ -88,8 +88,8 @@ const initialState = {
 export const PortfolioContext = createContext(initialState)
 
 export const PortfolioProvider = ({children}) => {
-    const [work, setWork] = useState(initialState.work)
-    const [me, setMe] = useState(initialState.me)
+    const [work] = useState(initialState.work)
+    const [me] = useState(initialState.me)
 
     return (
         <PortfolioContext.Provider value={{work, me}}>
