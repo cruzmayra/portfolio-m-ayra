@@ -8,7 +8,7 @@ export const Footer = () => {
                 <h3 className="title">Mantente en contacto</h3>
                 <div className="column-container">
                     
-                    <p>Gracias por llegar al final ✨. Si quieres saber más de mí, lo que estoy aprendiendo, en qué estoy trabajando o colaborando...</p>
+                    <p>Gracias por llegar al final <span aria-label="Imagen de destellos" role="img">✨</span>. Si quieres saber más de mí, lo que estoy aprendiendo, en qué estoy trabajando o colaborando...</p>
                     
                     <p>Enviame un correo a: <a href="tomail:velazquez.leonora@gmail.com">velazquez.leonora@gmail.com</a></p>
 

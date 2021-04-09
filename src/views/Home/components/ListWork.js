@@ -20,13 +20,14 @@ const WorkCard = ({info}) => {
     return (
         <div className="work-card">
             <div className="work-header">
-                <a href={link} target="_blank">
+                <a href={link} target="_blank" rel="noopener noreferrer">
                     <img src={require(`./../../../resources/images/${previewImage}`)} alt={title} />
                 </a>
             </div>
             <div className="work-body">
                 <a href={codeLink}
                     target="_blank"
+                    rel="noopener noreferrer"
                     title={sourceCode ? "Código fuente" : ''}
                     className={sourceCode ? '' : 'isDisabled'}>
                     <h3>
