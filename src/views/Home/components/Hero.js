@@ -9,6 +9,12 @@ export const Hero = () => {
                 <p className="bio">Desarrolladora frontend,</p>
                 <p className="bio">radicada en CDMX.</p>
             </div>
+            <div className="bio-image">
+                <img
+                    src={require('./../../../resources/images/eme-ayra-hero.png')}
+                    alt="mujer escribiendo en una computadora"
+                />
+            </div>
         </section>
     )
 }

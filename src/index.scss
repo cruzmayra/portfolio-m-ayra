@@ -31,7 +31,7 @@ body {
   color: #1e1e1e;
   font-family: 'Karla';
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -92,6 +92,7 @@ header {
   flex-direction: column;
   flex-wrap: wrap;
   height: 1100px;
+  padding: 60px 0px;
 }
 
 .work-card {
@@ -153,9 +154,10 @@ header {
   align-items: center;
   display: flex;
   flex-direction: row;
-  height: 85vh;
+  height: 70vh;
   justify-content: space-between;
   .bio-container {
+    flex: 60%;
     .greeting {
       color: silver;
       font-size: 28px;
@@ -168,6 +170,14 @@ header {
       font-size: 28px;
       line-height: 36px;
       margin: 0;
+    }
+  }
+  .bio-image {
+    flex: 40%;
+    height: 100%;
+    img {
+      height: 100%;
+      object-fit: cover;
     }
   }
 }
@@ -195,6 +205,36 @@ header {
   .page-column-two {
     flex: 0 1 70%;
     padding-left: 20px;
+  }
+}
+
+#bio {
+  padding: 80px 0px;
+  .get-cv {
+    margin-top: 60px;
+    text-align: center;
+    button {
+      align-items: center;
+      background-color: #fff;
+      border: 1px solid #3aa8ff;
+      border-radius: .375em;
+      box-shadow: none;
+      color: #3aa8ff;
+      cursor: pointer;
+      display: inline-flex;
+      font-size: 1rem;
+      justify-content: center;
+      height: 2.5em;
+      line-height: 1.5;
+      padding-bottom: calc(.5em - 1px);
+      padding-left: 1em;
+      padding-right: 1em;
+      padding-top: calc(.5em - 1px);
+      position: relative;
+      text-align: center;
+      vertical-align: top;
+      white-space: nowrap;
+    }
   }
 }
 
