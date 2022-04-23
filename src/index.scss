@@ -157,7 +157,7 @@ header {
   height: 70vh;
   justify-content: space-between;
   .bio-container {
-    flex: 60%;
+    flex: 1 0 60%;
     .greeting {
       color: silver;
       font-size: 28px;
@@ -173,7 +173,7 @@ header {
     }
   }
   .bio-image {
-    flex: 40%;
+    flex: 1 0 40%;
     height: 100%;
     img {
       height: 100%;
@@ -268,6 +268,20 @@ footer {
 }
 
 @media (max-width: 700px) {
+  .hero {
+    flex-direction: column;
+    height: 100vh;
+    .bio-image{
+      flex: 1 0 100vw;
+      height: 65%;
+    }
+    .bio-container {
+      flex: 1 0 100vw;
+      height: 35%;
+      order: 2;
+    }
+  }
+
   .masonry {
     display: block;
     height: auto;

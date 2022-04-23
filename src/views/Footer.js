@@ -12,19 +12,19 @@ export const Footer = () => {
                     
                     <p>Enviame un correo a: <a href="tomail:yo.mera@mayracruz.com.mx">yo.mera@mayracruz.com.mx</a></p>
 
-                    <p>Mira mi CV <a href={'/Mayra-Cruz-Resume.pdf'}>en este enlace.</a></p>
+                    <p>Mira mi CV <a href={'/Mayra-Cruz-Resume.pdf'} target={"_blank"} rel={"noreferrer"}>en este enlace.</a></p>
                     
                     <p>O bien, encuentrame acá:</p>
                     <div className='footer-links-container'>
-                        <a className='footer-link' href='https://www.linkedin.com/in/cruz-mayra/'>
+                        <a className='footer-link' href='https://www.linkedin.com/in/cruz-mayra/' target={"_blank"} rel={"noreferrer"}>
                             <FontAwesomeIcon className='link-icon' icon={['fab', 'linkedin-in']} />
                         </a>
-                        <a className='footer-link' href='https://github.com/cruzmayra'>
+                        <a className='footer-link' href='https://github.com/cruzmayra' target={"_blank"} rel={"noreferrer"}>
                             <FontAwesomeIcon className='link-icon' icon={['fab', 'github']} />
                         </a>
-                        {/* <a className='footer-link' href='https://codepen.io/m_ayra'>
+                        <a className='footer-link' href='https://codepen.io/m_ayra' target={"_blank"} rel={"noreferrer"}>
                             <FontAwesomeIcon className='link-icon' icon={['fab', 'codepen']} />
-                        </a> */}
+                        </a>
                     </div>
                 </div>
             </section>

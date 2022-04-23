@@ -5,10 +5,10 @@ export const Bio = () => {
     <section id="bio">
       <h2 className='title'>Acerca de mí</h2>
         <p>
-        Soy desarrolladora frontend radicada en Ciudad de México, tengo dos años desarrollando páginas y aplicaciones web.
+        Soy desarrolladora frontend radicada en Ciudad de México, tengo experiencia desarrollando sitios y aplicaciones web utilizando HTML, CSS y JavaScript; algunos con Reactjs y otros tantos con WordPress.
         </p>
         <p>
-          He trabajado con herramientas como Javascript, HTML, CSS. He construido SPA con Reactjs, React Hooks y React Router. También he creado sitios con WordPress, uno de ellos con un tema a la medida. Tengo conocimientos de PHP trabajando con Laravel.
+          El último año he comenzado a trabajar con PHP y Laravel, lo que me ha permitido satisfacer mi deseo de crecimiento constante.
         </p>
         <p>
           Soy egresada de la quinta generación de <a href="https://www.laboratoria.la/" target="_blank" rel="noopener noreferrer">Laboratoria</a> México, con especialización en Desarrollo Web Frontend. Antes de eso trabaje como asistente y auxiliar administrativa.
@@ -17,7 +17,7 @@ export const Bio = () => {
           Me gusta encontrar inspiración en el trabajo de los demás y aprender por mi cuenta.
         </p>
         <div className="get-cv">
-          <a href={'/Mayra-Cruz-Resume.pdf'}><button >DESCARGA MI CV</button></a>
+          <a href={'/Mayra-Cruz-Resume.pdf'} target={"_blank"} rel={"noreferrer"}><button >DESCARGA MI CV</button></a>
           
         </div>
     </section>
